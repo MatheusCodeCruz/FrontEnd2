@@ -1,0 +1,200 @@
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Estilo para o cabeçalho */
+.header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+/* Estilo para o menu1 */
+.menu1,
+ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu1,
+a,
+li {
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.menu1 img {
+    margin: auto;
+    background-color: #333;
+}
+
+/* Estilo para o menu2 */
+.menu2,
+a,
+li {
+    display: flex;
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.painel {
+    background-color: orange;
+    height: 430px;
+    margin-bottom: 20px;
+}
+
+img {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: auto;
+}
+
+.animes {
+    display: flex;
+}
+
+.anime {
+    display: flex;
+    background-color: #333;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin: 70px 8px 70px 8px;
+    text-align: center;
+
+}
+
+#verifica {
+    display: flex;
+    background-color: #333;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.linha {
+    height: 4px;
+    background-color: aqua;
+    margin: 0 auto 2px;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards>div {
+    flex: 1 1 100px;
+    margin: 2px;
+}
+
+.content {
+    max-width: 1170px;
+    /* margin: 20px auto 20px; */
+    padding: 10px;
+}
+
+.cards2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards2>div {
+    flex: 1 1 100px;
+    margin: 2px;
+}
+
+.content2 {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.destaque {
+    color: aqua;
+}
+
+.container {
+    color: white;
+}
+
+main {
+    background-color: black;
+}
+
+body {
+    margin-bottom: 50px;
+    background-color: black;
+}
+
+#title,
+#slayer,
+#assistir,
+#fila {
+    color: orange;
+    padding: 10px;
+}
+
+#title {
+    font-size: 30px;
+}
+
+#assistir {
+    color: black;
+    background-color: orange;
+    border: 2px solid orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#fila {
+    border: 2px solid orange;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.assista {
+    padding: 10px;
+}
+
+#slayer {
+    margin-bottom: 20px;
+}
+
+#assistir,
+#fila {
+    margin-top: 10px;
+}
+
+.bi {
+    font-size: 1.5rem;
+}
+
+.icon {
+    font-size: 0.6rem;
+    align-items: center;
+  }
+  
